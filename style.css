@@ -1,0 +1,81 @@
+.grid{
+    border: 1px solid black;
+    height: 450px;
+    width: 452px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 550px;
+}
+
+#start-pause-button{
+    margin-left: 300px;
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+}
+
+
+.grid div{
+    width: 50px;
+    height: 50px;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+
+.starting-block{
+    background-color: blue;
+}
+
+
+
+.log-left,
+.log-right{
+    background-color: lightblue;
+}
+
+.car-left, .car-right{
+    background-color: rgb(173, 173, 173);
+}
+
+h2{
+    margin-left: 150px;
+}
+
+.time{
+    margin-left: 600px;
+}
+
+.result_title{
+    margin-left: 900px;
+}
+
+
+.l1, .l2, .l3{
+    background-color: brown;
+}
+
+.l4 ,.l5{
+    background-color: lightblue;
+}
+
+.c1{
+    background-color: black;
+}
+.c2, .c3{
+    background-color: rgb(173, 173, 173);
+}
+
+.frog{
+    background-color: green;
+}
+
+.win{
+    color: green;
+}
+
+.loose{
+    color: red;
+}
